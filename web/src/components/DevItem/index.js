@@ -9,7 +9,7 @@ function DevItem({ dev }) {
             <div className="user-info">
                 <strong>{dev.name}</strong>
                 <span>{dev.techs.join(', ')}</span>
-            </div>
+            </div> 
             </header>
             <p>{dev.bio}</p>
             <a href={`https://github.com/${dev.github_username}`}>Acessar perfil no Github</a>

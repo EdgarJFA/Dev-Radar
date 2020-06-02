@@ -81,7 +81,7 @@ function App() {
             <div className="input-block">
               <label htmlFor="latitude">Latitude</label>
               <input type="number" name="latitude" id="latitude" required value= {latitude} onChange={e => setLatitude(e.target.value)} />
-            </div>
+            </div> 
 
             <div className="input-block">
               <label htmlFor="longitude">longitude</label>
@@ -95,7 +95,7 @@ function App() {
 
       <main>
         <ul>
-          {devs.map(dev => (
+          {devs.map(dev => ( 
            <DevItem  key={dev._id} dev={dev} />
           ))}                     
         </ul>
